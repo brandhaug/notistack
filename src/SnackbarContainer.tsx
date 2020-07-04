@@ -17,11 +17,6 @@ const useStyle = makeStyles(theme => ({
         width: 'auto',
         minWidth: 288,
         transition: theme.transitions.create(['top', 'right', 'bottom', 'left'], { easing: 'ease' }),
-        [theme.breakpoints.down('xs')]: {
-            left: '0 !important',
-            right: '0 !important',
-            width: '100%',
-        },
     },
     reverseColumns: { flexDirection: 'column-reverse' },
 
