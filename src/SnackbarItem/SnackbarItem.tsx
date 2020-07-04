@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React, { useState, useEffect, useRef } from 'react';
 import clsx from 'clsx';
 import { withStyles, WithStyles, createStyles, Theme } from '@material-ui/core/styles';
